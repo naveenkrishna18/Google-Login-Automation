@@ -4,7 +4,7 @@ from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.keys import Keys
 import time
 
-service = Service('.\chromedriver.exe') #reading the chrome driver file for accessing the browser
+service = Service('.\drivers\chromedriver.exe') #reading the chrome driver file for accessing the browser
 
 #chrome driver settings
 def create_chrome_driver():
